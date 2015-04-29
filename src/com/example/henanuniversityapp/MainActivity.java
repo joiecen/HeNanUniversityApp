@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
 		asyncHttpClient = new AsyncHttpClient();
 		PersistentCookieStore persistentCookieStore = new PersistentCookieStore(this);
 		asyncHttpClient.setCookieStore(persistentCookieStore);
-		
+		//
 		getdatabutton = (Button)findViewById(R.id.getdatabutton);
 		getdatabutton.setOnClickListener(onClickListener);
 		datafromnet = (TextView)findViewById(R.id.datafromnet);
